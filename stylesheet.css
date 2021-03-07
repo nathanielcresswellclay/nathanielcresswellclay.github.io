@@ -41,6 +41,9 @@ p.first_page_text {
   height: 450px;
   padding-top:  20px;
 }
+p.sailing_intro {;
+    width: 850px;
+}
 ul {
     width: 1000px;
 }
@@ -84,3 +87,6 @@ code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inher
     width: 800px;
     padding-top:  50px;
 	}
+.big_box {
+    height: 500px;
+}
