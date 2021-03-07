@@ -1,75 +1,72 @@
-img {
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-top: .5cm;
-margin-bottom: .5cm;
-max-width: 100%
+body {
+    width: 600px;
+    padding-left:  180px;
+    padding-top:  30px;
 }
-
-video {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: .5cm;
-  margin-bottom: .5cm;
-  max-width: 60%;
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
 }
-
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
 h1 {
-font-style: normal;
-font-family: Georgia;
-font-size: 250%;
-text-align: center;
-}
-
-h2 {
-  margin-top: 0;
-  font-style: normal;
-  font-family: Georgia;
-  font-size: x-large;
-  text-align: left;
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-  font-style: normal;
-  font-family: Georgia;
-  font-size: 100%;
-  text-align: center;
-  margin:0 auto;
-  max-width: 60%;
+    color: #333;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+    width: 800px;
 }
-.stream_container {
-  text-align: center;
+ul {
+    width: 1000px;
 }
-.h2_subtitle {
-   margin-top: 0;
-    font-weight: normal;
-    font-size: x-large;
+ol {
+    width: 800px;
 }
-.left_column{
-  width: 48%;
-  float: left;
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: 3;
+    width: 860px;
 }
-.right_column{
-  width: 48%;
-  float: right;
+ul.index {
+    width: 570px;
+    font-size: 4;
 }
-.stream_post {
-    border-top: 2px solid Black;
+ul.posts {
+    width: 800px;
+    font-size: 4;
+}
+h2.posts {
+    width: 800px;
+}
+ul.posts li {
+    list-style: none;
+}
+
+code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit; color: inherit}
+
+.center {
     display: block;
-    max-width: 70%;
-    margin-bottom: 3cm;
-    margin-left: auto;
+    margin-left: 250px;
     margin-right: auto;
-    font-family: Arial;
+    width: 800px;
 }
-.stream_post_text{
-  font-style: normal;
-  font-family: Georgia;
-  max-width: 100%;
-  font-size: large;
-  text-align: left;
-  margin:0 auto;
-  margin-top: .5cm;
-  margin-bottom: .5cm;
-}
+.comments {
+    width: 800px;
+    padding-top:  50px;
+	}
