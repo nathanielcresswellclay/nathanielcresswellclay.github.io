@@ -70,7 +70,9 @@ h2.posts {
 ul.posts li {
     list-style: none;
 }
-
+.blue-link {
+    color: blue;
+}
 code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit; color: inherit}
 
 .current_page{
