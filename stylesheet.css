@@ -25,24 +25,55 @@ a {
 a:hover {
     text-decoration: underline;
 }
+a.science_list_pubs {
+  color: #0077cc; /* or any color you want */
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 14px;
+  text-decoration: none; /* optional: removes underline */
+}
+a.science_list_pubs:hover {
+    text-decoration: underline;
+}
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+h2 {
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif'; /* Change to your preferred font */
+    font-size: 18px; /* Adjust size as needed */
+    font-weight: bold; /* Normal weight */
+    margin-top: 20px; /* Add spacing above */
+    margin-bottom: 10px; /* Add spacing below */
+  }
 p {
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif'; /* Change to your preferred font */
     color: #333;
     text-align: justify;
     text-justify: inter-word;
-    font-size: 20px;
+    font-size: 16px;
     width: 800px;
 }
 p.first_page_text {
   width: 570px;
   height: 450px;
   padding-top:  20px;
+  margin-bottom: 0;
 }
-p.sailing_intro {;
+p.science_blurb {
+  width: 570px;
+  padding-top:  20px;
+  margin-bottom: 0;
+}
+p.sailing_intro {
     width: 850px;
+}
+.blurb ul {
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+  padding-left: 1.2em;
+}
+.science_list_pubs {
+    width: 570px
 }
 ul {
     width: 1000px;
